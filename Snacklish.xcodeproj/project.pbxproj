@@ -7,40 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A33591127B994DE002690B9 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A33591027B994DE002690B9 /* Intents.framework */; };
+		1A33591427B994DE002690B9 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A33591327B994DE002690B9 /* IntentHandler.swift */; };
+		1A33591827B994DE002690B9 /* SnacklishShortcuts.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A33590E27B994DE002690B9 /* SnacklishShortcuts.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1A33591D27B994FE002690B9 /* SnackBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEE13C278CD6D700700EEB /* SnackBrain.swift */; };
+		1A33591F27B9951B002690B9 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1A33591E27B9951B002690B9 /* Intents.intentdefinition */; };
+		1AE01D6727B99FC100C29172 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1A33591E27B9951B002690B9 /* Intents.intentdefinition */; };
+		1AE01D6927B9A0B300C29172 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A33591327B994DE002690B9 /* IntentHandler.swift */; };
 		1AFEE120278CC04300700EEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEE11F278CC04300700EEB /* AppDelegate.swift */; };
 		1AFEE122278CC04300700EEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEE121278CC04300700EEB /* SceneDelegate.swift */; };
-		1AFEE124278CC04300700EEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEE123278CC04300700EEB /* ViewController.swift */; };
+		1AFEE124278CC04300700EEB /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEE123278CC04300700EEB /* InputViewController.swift */; };
 		1AFEE127278CC04300700EEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEE125278CC04300700EEB /* Main.storyboard */; };
 		1AFEE129278CC04500700EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEE128278CC04500700EEB /* Assets.xcassets */; };
 		1AFEE12C278CC04500700EEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEE12A278CC04500700EEB /* LaunchScreen.storyboard */; };
+		1AFEE135278CC19500700EEB /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1AFEE134278CC19500700EEB /* IQKeyboardManagerSwift */; };
+		1AFEE139278CC3A900700EEB /* OutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEE138278CC3A900700EEB /* OutputViewController.swift */; };
+		1AFEE13D278CD6D700700EEB /* SnackBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEE13C278CD6D700700EEB /* SnackBrain.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1A33591627B994DE002690B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AFEE114278CC04300700EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A33590D27B994DE002690B9;
+			remoteInfo = SnacklishShortcuts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A33591C27B994DE002690B9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1A33591827B994DE002690B9 /* SnacklishShortcuts.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		1AFEE11C278CC04300700EEB /* Snacklish Storyboards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snacklish Storyboards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A33590E27B994DE002690B9 /* SnacklishShortcuts.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SnacklishShortcuts.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A33591027B994DE002690B9 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		1A33591327B994DE002690B9 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		1A33591527B994DE002690B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A33591E27B9951B002690B9 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		1AFEE11C278CC04300700EEB /* Snacklish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snacklish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFEE11F278CC04300700EEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AFEE121278CC04300700EEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1AFEE123278CC04300700EEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AFEE123278CC04300700EEB /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		1AFEE126278CC04300700EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AFEE128278CC04500700EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AFEE12B278CC04500700EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AFEE12D278CC04500700EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFEE138278CC3A900700EEB /* OutputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputViewController.swift; sourceTree = "<group>"; };
+		1AFEE13C278CD6D700700EEB /* SnackBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1A33590B27B994DE002690B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A33591127B994DE002690B9 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1AFEE119278CC04300700EEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AFEE135278CC19500700EEB /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A33590F27B994DE002690B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A33591027B994DE002690B9 /* Intents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A33591227B994DE002690B9 /* SnacklishShortcuts */ = {
+			isa = PBXGroup;
+			children = (
+				1A33591327B994DE002690B9 /* IntentHandler.swift */,
+				1A33591527B994DE002690B9 /* Info.plist */,
+				1A33591E27B9951B002690B9 /* Intents.intentdefinition */,
+			);
+			path = SnacklishShortcuts;
+			sourceTree = "<group>";
+		};
 		1AFEE113278CC04300700EEB = {
 			isa = PBXGroup;
 			children = (
 				1AFEE11E278CC04300700EEB /* Snacklish Storyboards */,
+				1A33591227B994DE002690B9 /* SnacklishShortcuts */,
+				1A33590F27B994DE002690B9 /* Frameworks */,
 				1AFEE11D278CC04300700EEB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,7 +118,8 @@
 		1AFEE11D278CC04300700EEB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1AFEE11C278CC04300700EEB /* Snacklish Storyboards.app */,
+				1AFEE11C278CC04300700EEB /* Snacklish.app */,
+				1A33590E27B994DE002690B9 /* SnacklishShortcuts.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,10 +127,11 @@
 		1AFEE11E278CC04300700EEB /* Snacklish Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				1AFEE13A278CD6B500700EEB /* Model */,
+				1AFEE137278CC36300700EEB /* View */,
+				1AFEE136278CC29100700EEB /* Controller */,
 				1AFEE11F278CC04300700EEB /* AppDelegate.swift */,
 				1AFEE121278CC04300700EEB /* SceneDelegate.swift */,
-				1AFEE123278CC04300700EEB /* ViewController.swift */,
-				1AFEE125278CC04300700EEB /* Main.storyboard */,
 				1AFEE128278CC04500700EEB /* Assets.xcassets */,
 				1AFEE12A278CC04500700EEB /* LaunchScreen.storyboard */,
 				1AFEE12D278CC04500700EEB /* Info.plist */,
@@ -67,24 +139,71 @@
 			path = "Snacklish Storyboards";
 			sourceTree = "<group>";
 		};
+		1AFEE136278CC29100700EEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AFEE123278CC04300700EEB /* InputViewController.swift */,
+				1AFEE138278CC3A900700EEB /* OutputViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AFEE137278CC36300700EEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AFEE125278CC04300700EEB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1AFEE13A278CD6B500700EEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1AFEE13C278CD6D700700EEB /* SnackBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1AFEE11B278CC04300700EEB /* Snacklish Storyboards */ = {
+		1A33590D27B994DE002690B9 /* SnacklishShortcuts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1AFEE130278CC04500700EEB /* Build configuration list for PBXNativeTarget "Snacklish Storyboards" */;
+			buildConfigurationList = 1A33591927B994DE002690B9 /* Build configuration list for PBXNativeTarget "SnacklishShortcuts" */;
 			buildPhases = (
-				1AFEE118278CC04300700EEB /* Sources */,
-				1AFEE119278CC04300700EEB /* Frameworks */,
-				1AFEE11A278CC04300700EEB /* Resources */,
+				1A33590A27B994DE002690B9 /* Sources */,
+				1A33590B27B994DE002690B9 /* Frameworks */,
+				1A33590C27B994DE002690B9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Snacklish Storyboards";
+			name = SnacklishShortcuts;
+			productName = SnacklishShortcuts;
+			productReference = 1A33590E27B994DE002690B9 /* SnacklishShortcuts.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1AFEE11B278CC04300700EEB /* Snacklish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFEE130278CC04500700EEB /* Build configuration list for PBXNativeTarget "Snacklish" */;
+			buildPhases = (
+				1AFEE118278CC04300700EEB /* Sources */,
+				1AFEE119278CC04300700EEB /* Frameworks */,
+				1AFEE11A278CC04300700EEB /* Resources */,
+				1A33591C27B994DE002690B9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A33591727B994DE002690B9 /* PBXTargetDependency */,
+			);
+			name = Snacklish;
+			packageProductDependencies = (
+				1AFEE134278CC19500700EEB /* IQKeyboardManagerSwift */,
+			);
 			productName = "Snacklish Storyboards";
-			productReference = 1AFEE11C278CC04300700EEB /* Snacklish Storyboards.app */;
+			productReference = 1AFEE11C278CC04300700EEB /* Snacklish.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -97,12 +216,15 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					1A33590D27B994DE002690B9 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					1AFEE11B278CC04300700EEB = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 1AFEE117278CC04300700EEB /* Build configuration list for PBXProject "Snacklish Storyboards" */;
+			buildConfigurationList = 1AFEE117278CC04300700EEB /* Build configuration list for PBXProject "Snacklish" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,16 +233,27 @@
 				Base,
 			);
 			mainGroup = 1AFEE113278CC04300700EEB;
+			packageReferences = (
+				1AFEE133278CC19500700EEB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 1AFEE11D278CC04300700EEB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1AFEE11B278CC04300700EEB /* Snacklish Storyboards */,
+				1AFEE11B278CC04300700EEB /* Snacklish */,
+				1A33590D27B994DE002690B9 /* SnacklishShortcuts */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1A33590C27B994DE002690B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1AFEE11A278CC04300700EEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,17 +267,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1A33590A27B994DE002690B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A33591F27B9951B002690B9 /* Intents.intentdefinition in Sources */,
+				1A33591427B994DE002690B9 /* IntentHandler.swift in Sources */,
+				1A33591D27B994FE002690B9 /* SnackBrain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1AFEE118278CC04300700EEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AFEE124278CC04300700EEB /* ViewController.swift in Sources */,
+				1AE01D6727B99FC100C29172 /* Intents.intentdefinition in Sources */,
+				1AFEE124278CC04300700EEB /* InputViewController.swift in Sources */,
+				1AFEE139278CC3A900700EEB /* OutputViewController.swift in Sources */,
+				1AFEE13D278CD6D700700EEB /* SnackBrain.swift in Sources */,
+				1AE01D6927B9A0B300C29172 /* IntentHandler.swift in Sources */,
 				1AFEE120278CC04300700EEB /* AppDelegate.swift in Sources */,
 				1AFEE122278CC04300700EEB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A33591727B994DE002690B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A33590D27B994DE002690B9 /* SnacklishShortcuts */;
+			targetProxy = 1A33591627B994DE002690B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1AFEE125278CC04300700EEB /* Main.storyboard */ = {
@@ -166,6 +321,56 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1A33591A27B994DE002690B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = TYVR9GGSKN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnacklishShortcuts/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SnacklishShortcuts;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjodle.Snacklish.SnacklishShortcuts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A33591B27B994DE002690B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = TYVR9GGSKN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnacklishShortcuts/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SnacklishShortcuts;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjodle.Snacklish.SnacklishShortcuts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		1AFEE12E278CC04500700EEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -285,24 +490,27 @@
 		1AFEE131278CC04500700EEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = TYVR9GGSKN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Snacklish Storyboards/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Snacklish;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sjodle.Snacklish-Storyboards";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjodle.Snacklish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -313,24 +521,27 @@
 		1AFEE132278CC04500700EEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = TYVR9GGSKN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Snacklish Storyboards/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Snacklish;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sjodle.Snacklish-Storyboards";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjodle.Snacklish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,7 +552,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1AFEE117278CC04300700EEB /* Build configuration list for PBXProject "Snacklish Storyboards" */ = {
+		1A33591927B994DE002690B9 /* Build configuration list for PBXNativeTarget "SnacklishShortcuts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A33591A27B994DE002690B9 /* Debug */,
+				1A33591B27B994DE002690B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AFEE117278CC04300700EEB /* Build configuration list for PBXProject "Snacklish" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AFEE12E278CC04500700EEB /* Debug */,
@@ -350,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1AFEE130278CC04500700EEB /* Build configuration list for PBXNativeTarget "Snacklish Storyboards" */ = {
+		1AFEE130278CC04500700EEB /* Build configuration list for PBXNativeTarget "Snacklish" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AFEE131278CC04500700EEB /* Debug */,
@@ -360,6 +580,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1AFEE133278CC19500700EEB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1AFEE134278CC19500700EEB /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AFEE133278CC19500700EEB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1AFEE114278CC04300700EEB /* Project object */;
 }
