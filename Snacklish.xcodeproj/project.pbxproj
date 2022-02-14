@@ -12,16 +12,18 @@
 		1A33591827B994DE002690B9 /* SnacklishShortcuts.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A33590E27B994DE002690B9 /* SnacklishShortcuts.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1A33591D27B994FE002690B9 /* SnackBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEE13C278CD6D700700EEB /* SnackBrain.swift */; };
 		1A33591F27B9951B002690B9 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1A33591E27B9951B002690B9 /* Intents.intentdefinition */; };
+		1AD315BC27BA2103001DA5B5 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD315BB27BA2103001DA5B5 /* ShareSheet.swift */; };
+		1AD315BE27BA2144001DA5B5 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD315BD27BA2144001DA5B5 /* InputView.swift */; };
+		1AD315C027BA215F001DA5B5 /* OutputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD315BF27BA215F001DA5B5 /* OutputView.swift */; };
 		1AE01D6727B99FC100C29172 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1A33591E27B9951B002690B9 /* Intents.intentdefinition */; };
 		1AE01D6927B9A0B300C29172 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A33591327B994DE002690B9 /* IntentHandler.swift */; };
+		1AE01D7F27B9FFBE00C29172 /* SnacklishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE01D7E27B9FFBE00C29172 /* SnacklishView.swift */; };
+		1AE01D8327BA00C700C29172 /* SwiftUIHostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE01D8227BA00C700C29172 /* SwiftUIHostingViewController.swift */; };
 		1AFEE120278CC04300700EEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEE11F278CC04300700EEB /* AppDelegate.swift */; };
 		1AFEE122278CC04300700EEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEE121278CC04300700EEB /* SceneDelegate.swift */; };
-		1AFEE124278CC04300700EEB /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEE123278CC04300700EEB /* InputViewController.swift */; };
 		1AFEE127278CC04300700EEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEE125278CC04300700EEB /* Main.storyboard */; };
 		1AFEE129278CC04500700EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEE128278CC04500700EEB /* Assets.xcassets */; };
 		1AFEE12C278CC04500700EEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFEE12A278CC04500700EEB /* LaunchScreen.storyboard */; };
-		1AFEE135278CC19500700EEB /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1AFEE134278CC19500700EEB /* IQKeyboardManagerSwift */; };
-		1AFEE139278CC3A900700EEB /* OutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEE138278CC3A900700EEB /* OutputViewController.swift */; };
 		1AFEE13D278CD6D700700EEB /* SnackBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEE13C278CD6D700700EEB /* SnackBrain.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,15 +57,18 @@
 		1A33591327B994DE002690B9 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		1A33591527B994DE002690B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A33591E27B9951B002690B9 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		1AD315BB27BA2103001DA5B5 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		1AD315BD27BA2144001DA5B5 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		1AD315BF27BA215F001DA5B5 /* OutputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputView.swift; sourceTree = "<group>"; };
+		1AE01D7E27B9FFBE00C29172 /* SnacklishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnacklishView.swift; sourceTree = "<group>"; };
+		1AE01D8227BA00C700C29172 /* SwiftUIHostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIHostingViewController.swift; sourceTree = "<group>"; };
 		1AFEE11C278CC04300700EEB /* Snacklish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snacklish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFEE11F278CC04300700EEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AFEE121278CC04300700EEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1AFEE123278CC04300700EEB /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		1AFEE126278CC04300700EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AFEE128278CC04500700EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AFEE12B278CC04500700EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AFEE12D278CC04500700EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AFEE138278CC3A900700EEB /* OutputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputViewController.swift; sourceTree = "<group>"; };
 		1AFEE13C278CD6D700700EEB /* SnackBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,7 +85,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AFEE135278CC19500700EEB /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +146,7 @@
 		1AFEE136278CC29100700EEB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1AFEE123278CC04300700EEB /* InputViewController.swift */,
-				1AFEE138278CC3A900700EEB /* OutputViewController.swift */,
+				1AE01D8227BA00C700C29172 /* SwiftUIHostingViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -152,6 +155,10 @@
 			isa = PBXGroup;
 			children = (
 				1AFEE125278CC04300700EEB /* Main.storyboard */,
+				1AE01D7E27B9FFBE00C29172 /* SnacklishView.swift */,
+				1AD315BB27BA2103001DA5B5 /* ShareSheet.swift */,
+				1AD315BD27BA2144001DA5B5 /* InputView.swift */,
+				1AD315BF27BA215F001DA5B5 /* OutputView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,7 +207,6 @@
 			);
 			name = Snacklish;
 			packageProductDependencies = (
-				1AFEE134278CC19500700EEB /* IQKeyboardManagerSwift */,
 			);
 			productName = "Snacklish Storyboards";
 			productReference = 1AFEE11C278CC04300700EEB /* Snacklish.app */;
@@ -234,7 +240,6 @@
 			);
 			mainGroup = 1AFEE113278CC04300700EEB;
 			packageReferences = (
-				1AFEE133278CC19500700EEB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = 1AFEE11D278CC04300700EEB /* Products */;
 			projectDirPath = "";
@@ -282,12 +287,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AE01D6727B99FC100C29172 /* Intents.intentdefinition in Sources */,
-				1AFEE124278CC04300700EEB /* InputViewController.swift in Sources */,
-				1AFEE139278CC3A900700EEB /* OutputViewController.swift in Sources */,
 				1AFEE13D278CD6D700700EEB /* SnackBrain.swift in Sources */,
 				1AE01D6927B9A0B300C29172 /* IntentHandler.swift in Sources */,
 				1AFEE120278CC04300700EEB /* AppDelegate.swift in Sources */,
 				1AFEE122278CC04300700EEB /* SceneDelegate.swift in Sources */,
+				1AD315C027BA215F001DA5B5 /* OutputView.swift in Sources */,
+				1AE01D7F27B9FFBE00C29172 /* SnacklishView.swift in Sources */,
+				1AD315BE27BA2144001DA5B5 /* InputView.swift in Sources */,
+				1AE01D8327BA00C700C29172 /* SwiftUIHostingViewController.swift in Sources */,
+				1AD315BC27BA2103001DA5B5 /* ShareSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = TYVR9GGSKN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SnacklishShortcuts/Info.plist;
@@ -350,7 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = TYVR9GGSKN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SnacklishShortcuts/Info.plist;
@@ -494,7 +502,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = TYVR9GGSKN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Snacklish Storyboards/Info.plist";
@@ -525,7 +533,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = TYVR9GGSKN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Snacklish Storyboards/Info.plist";
@@ -580,25 +588,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		1AFEE133278CC19500700EEB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.5.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		1AFEE134278CC19500700EEB /* IQKeyboardManagerSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1AFEE133278CC19500700EEB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
-			productName = IQKeyboardManagerSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1AFEE114278CC04300700EEB /* Project object */;
 }
